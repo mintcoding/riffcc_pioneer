@@ -11,15 +11,25 @@ import './assets/CustomStyles.css'
 import './assets/FontStyles.css'
 import './assets/TextSizingStyles.css'
 
+Vue.config.devtools = true;
+Vue.config.productionTip = false
 
 
 // @ts-ignore
 import lineClamp from "vue-line-clamp"
 import vueDebounce from "vue-debounce"
 import axios from "axios"
-import vueAxios from "vue-axios"
-import PerfectScrollbar from 'vue2-perfect-scrollbar'
-import 'vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css'
+
+//const axiosDefault = require('axios').default;
+//console.log(axiosDefault)
+//axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+
+
+import vueAxios from "vue-axios";
+import PerfectScrollbar from 'vue2-perfect-scrollbar';
+import 'vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css';
+
+
 // @ts-ignore
 import VueVideoPlayer from 'vue-vjs-hls'
 
